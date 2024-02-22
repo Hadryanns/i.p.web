@@ -1,7 +1,7 @@
-<script>
-  seletor = document.querySelector("input");
+//<script>
+  //seletor = document.querySelector("input");
 
-  function alteraCor() {
-    document.body.style.backgroundColor = seletor.value;
-  }
-<script/>
+  //function alteraCor() {
+    //#document.body.style.backgroundColor = seletor.value;
+  //}
+//<script/>
