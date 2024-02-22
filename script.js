@@ -1,5 +1,5 @@
 <script>
-  seletor = document.qyerySelector("input");
+  seletor = document.querySelector("input");
 
   function alteraCor() {
     document.body.style.backgroundColor = seletor.value;
