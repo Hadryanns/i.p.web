@@ -1,4 +1,4 @@
-<scripit>
+<script>
   seletor = document.qyerySelector("input");
 
   function alteraCor() {
