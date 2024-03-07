@@ -5,11 +5,11 @@
 function TrocarPag(caminho) {
     window.location.href=caminho
 }
-function Andamento() {
-    alert("Em andamento, quando chegar a atividade 2, eu boto")
+// function Andamento() {
+    // alert("Em andamento, quando chegar a atividade 2, eu boto")
     // Swal.fire({
     //     title: "Good job!",
     //     text: "You clicked the button!",
     //     icon: "success"
     //   });
-}
+// }
