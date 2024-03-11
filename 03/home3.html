@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+    <script src="../script.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body onload="AtualizarValor()">
+    <h1>Tabelas</h1>
+    <table class="table-bonitinho" border="1" cellpadding="5">
+        <tr>
+            <td>
+                <img height="100px" width="100px"
+                    src="https://i.pinimg.com/originals/26/25/83/26258358a52ee8eb4123c290c7c19dd2.gif" alt="">
+            </td>
+            <td>
+                <img height="100px" width="100px"
+                    src="https://upload-os-bbs.hoyolab.com/upload/2021/06/04/33019925/bfd6bf179a2d5b6bf0cd5eca6ef4736b_2070760765622143165.gif"
+                    alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img height="100px" width="100px"
+                    src="https://upload-os-bbs.hoyolab.com/upload/2023/08/18/33019925/21d8067f2705c37bf715533c6f77dcf6_4868195701037859310.gif"
+                    alt="">
+            </td>
+            <td>
+                <img height="100px" width="100px" src="https://media.tenor.com/2cyCZ0O6S7EAAAAM/keqing.gif" alt="">
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Lista de produtos</h1>
+    <div class="table-produtos">
+        <table class="table-bonitinho table-produtos-tamanho" width="400px" border="1" cellpadding="2">
+            <tr>
+                <th>Código</th>
+                <th>Descrição</th>
+                <th>Valor (R$)</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Cuzcuz</td>
+                <td><input class="input-table" oninput="AtualizarValor()" id="input1" type="number" value="6"></td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Cuzcuz Paulista</td>
+                <td><input class="input-table" oninput="AtualizarValor()" id="input2" type="number" value="7"></td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Creme de Galinha</td>
+                <td><input class="input-table" oninput="AtualizarValor()" id="input3" type="number" value="8"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Total:</b></td>
+                <td id="totalCompras"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><b>Encargos:</b></td>
+                <td>Juros</td>
+                <td><input class="input-table" oninput="AtualizarValor()" id="input4" type="number" value="3"></td>
+            </tr>
+            <tr>
+                <td>Multa</td>
+                <td><input class="input-table" oninput="AtualizarValor()" id="input5" type="number" value="5000"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <b>Total Geral:</b>
+                </td>
+                <td id="totalGeraltd"></td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <h1>Desafio</h1>
+    <table cellspacing="1" height="120px" width="100%" border="1">
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+    <button onclick="TrocarPag('../index.html')" class="botao-volta">Voltar</button>
+</body>
+</html>
