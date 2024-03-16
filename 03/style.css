@@ -1,0 +1,20 @@
+.table-bonitinho {
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+}
+
+.table-produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-produtos-tamanho {
+    width: 80%;
+}
+
+.input-table {
+    background-color: #f5f5f5;
+    border: none;
+    width: 99%;
+}

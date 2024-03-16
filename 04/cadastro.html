@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../script.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+    <form>
+        Login:<br>
+        <input type="text" name="login"><br>
+
+        Senha:<br>
+        <input oninput="senhaDiff()" type="password" name="senha" id="senhaId">
+        <input class="ver-senha" type="button" value="👁️" onclick="VerSenha('senhaId')" id="SpanSenha1" /><br>
+        Confirme a Senha:<br>
+        <input oninput="senhaDiff()" type="password" name="confirmarSenha" id="confirmId">
+        <input class="ver-senha" type="button" value="👁️" onclick="VerSenha('confirmId')" id="SpanSenha2" /><br>
+        <span id="mensagem"></span> <br>
+
+        Nome:<br/>
+        <input type="text" name="nome"><br>
+
+        Sexo:<br>
+        <input type="radio" name="sexo">Masculino<br>
+        <input type="radio" name="sexo">Feminino<br>
+
+        Email:
+        <input type="email" name="Email"><br>
+
+        Interesses:<br>
+        <input type="checkbox" name="Interesses">Futebol<br />
+        <input type="checkbox" name="Interesses">Política<br />
+        <input type="checkbox" name="Interesses">Economia<br />
+        <input type="checkbox" name="Interesses">Carros<br />
+        <input type="checkbox" name="Interesses">Celebridades<br />
+        Estados:
+        <select name="Estados">
+            <option value=""></option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select> <br>
+        Observações:<br>
+        <textarea name="obs" id="" cols="30" rows="10"></textarea>
+        <br>
+
+        <input type="button" value="Enviar">
+    </form>
+    <button class="botao-volta" onclick="TrocarPag('login.html')">
+        Voltar
+    </button>
+</body>
+
+</html>

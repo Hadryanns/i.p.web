@@ -1,0 +1,13 @@
+.Vermelho {
+    color: red;
+}
+
+.Verde {
+    color: lime;
+}
+
+.ver-senha {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
