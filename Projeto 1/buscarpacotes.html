@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
     <title>JS Viagens</title>
 </head>
 <body>
@@ -10,10 +12,10 @@
         <tr>
             <td><img src="imagens/logo.png"></td>
             <td align="right">
-                <a href="jmviagens.html">Home</a>
-                <a href="quemsomos.html">Quem somos</a>
-                <a href="contato.html">Contato</a>
-                <a href="destinos.html">Destinos</a>
+                <a href="jmviagens.html">Home</a>|
+                <a href="quemsomos.html">Quem somos</a>|
+                <a href="contato.html">Contato</a>|
+                <a href="destinos.html">Destinos</a>|
                 <a href="buscarpacotes.html">Pacotes</a>
             </td>
         </tr>
@@ -26,7 +28,29 @@
             <td colspan="2">
                 <h1>Buscar Pacotes de Viagem</h1>
                 <form>
-
+                    Origem: <br>
+                    <input name="origem" type="text"> <br>
+                    Destino: <br>
+                    <input name="destino" type="text"> <br>
+                    Data de Partida: <br>
+                    <input name="partida" type="date"> <br>
+                    Data de Chegada: <br>
+                    <input name="chegada" type="date"> <br>
+                    Quartos:
+                    <select name="quartos">
+                        <option value="quarto-0">0</option> 
+                        <option value="quarto-1">1</option>
+                        <option value="quarto-2">2</option>
+                        <option value="quarto-3">3</option>
+                        <option value="quarto-4">4</option>
+                        <option value="quarto-5">5</option>
+                    </select> <br>
+                    Quantidade de Adultos: <br>
+                    <input type="number"> <br>
+                    Quantidade de Filhos: <br>
+                    <input type="number"> <br>
+                    <input type="button" value="Buscar Pacotes">
+                    <input type="button" value="Limpar">
                 </form>
             </td>
         </tr>
