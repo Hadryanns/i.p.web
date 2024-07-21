@@ -7,10 +7,19 @@ a {
     color: black;
 }
 
+.footer {
+    background-color: rgba(14, 13, 13, 0.884);
+    width: 100%;
+    height: 192px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .botao-volta {
     background-color: blue;
     color: white;
-    /* border: 3px solid red; */
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -42,39 +51,101 @@ a {
     font-weight: 500;
 }
 
-.div-meio {
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.mid {
     display: flex;
-    height: 500px;
+    height: 600px;
     background-color: bisque;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.div-atividades {
-    display: flex;
-    height: 350px;
+.card {
+    height: 400px;
     width: 300px;
     background-color: sandybrown;
+    display: flex;
     align-items: center;
     justify-content: center;
-
+    border-radius: 10px;
+    transition-duration: 0.5s;
 }
 
-.esquerda {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.direita {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.span-atividades {
+.name-card {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 40px;
 }
 
-.list-margin {
-    margin-top: 20%;
+.card:hover {
+    transition-duration: 0.8s;
+    background-color: lightgreen;
+    color: white;
+    cursor: pointer;
+}
+
+.content-popup {
+    display: none;
+    background-color: moccasin;
+    width: 50%;
+    height: 500px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.close-popup {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.close-popup:hover {
+    color: red;
+}
+
+.div-link {
+    border-radius: 5px;
+    background-color: coral;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    margin: 15px;
+    justify-content: center;
+    line-height: 50px;
+    transition-duration: 0.5s;
+
+    a {
+        font-size: 20px;
+        color: white;
+    }
+}
+
+.div-link:hover {
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 0.8s;
+
+    a {
+        color: coral;
+    }
+
+    ;
 }

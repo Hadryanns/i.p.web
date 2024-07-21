@@ -38,7 +38,6 @@ ul.navbar li {
         border-top: thin dotted;
     }
 .neuvillet{
-    /* background-color: black; */
     height: 100%;
     width: 50%;
     display: flex;
@@ -47,5 +46,4 @@ ul.navbar li {
     justify-items: center;
     padding: 5%;
     margin-left: 100px;
-
 }

@@ -2,8 +2,6 @@
 <html lang="pt-br">
 
 <head>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
-  <!-- <script src="sweetalert2.all.min.js"></script> -->
   <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
@@ -14,54 +12,44 @@
 </head>
 
 <body>
-  <div class="div-header">
-    <span class="titulo">Hadryan César</span>
-  </div>
-  <div class="div-meio">
-    <div class="div-atividades esquerda">
-      <ul>
-        <li class="list-margin">
-          <span class="span-atividades">
-            <a href="01/home.html">Atividade 1</a>
-          </span>
-        </li>
-        <li class="list-margin">
-          <span class="span-atividades">
-            <a href="03/home3.html">Atividade 3</a>
-          </span>
-        </li>
-        <li class="list-margin">
-          <span class="span-atividades">
-            <a href="Projeto 1/jmviagens.html">Projeto 1</a>
-          </span>
-        </li>
-      </ul>
-    </div>
-    <div class="div-atividades direita">
-      <ul>
-        <li class="list-margin">
-          <span class="span-atividades">
-            <a href="02/Home2.html">Atividade 2</a>
-          </span>
-        </li>
-        <li class="list-margin">
-          <span class="span-atividades">
-            <a href="04/login.html">Atividade 4</a>
-          </span>
-        </li>
-        <li class="list-margin">
-          <span class="span-atividades">
-            <a href="05/Teste_css.html">Atividade 5</a>
-          </span>
-        </li>
-        <li class="list-margin">
-          <span class="span-atividades">
-            <a href="06/Homepage_css.html">Atividade 6</a>
-          </span>
-        </li>
-      </ul>
-    </div>
-  </div>
-</body>
 
+  <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+  <header class="div-header">
+    <span class="titulo">Hadryan César</span>
+  </header>
+
+  <section id="popup" class="content-popup"><button onclick="closePopup()" class="close-popup"
+      id="closePopup">&times;</button>
+  </section>
+  
+  <main class="mid">
+    <article onclick="openPopup('Atividades')" class="card">
+      <span class="name-card">Atividades</span>
+    </article>
+    <article onclick="openPopup('Projetos')" class="card">
+      <span class="name-card">Projetos</span>
+    </article>
+    <article onclick="openPopup('Trabalhos')" class="card">
+      <span class="name-card">Trabalhos</span>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <span>
+      <a href="https://www.instagram.com/hadryanns/"><img width="50px"
+          src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/instagram-white-icon.png"
+          alt=""></a>
+    </span>
+    <span>
+      <a href="https://www.linkedin.com/in/hadryan-cesar/"><img width="50px"
+          src="https://www.freeiconspng.com/thumbs/linkedin-logo-png/displaying-19-gallery-images-for-linkedin-logo-png-25.png"
+          alt=""></a>
+    </span>
+    <span>
+      <a href="https://github.com/Hadryanns"><img width="50px" src="Imagens/GIT HUB SEM FUNDO.png" alt=""></a>
+    </span>
+  </footer>
+
+</body>
 </html>

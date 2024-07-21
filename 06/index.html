@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 6</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
+</head>
+<style>
+    body{
+        margin: 0;
+
+    }
+    #header {
+        background-color: limegreen;
+        color: white;
+        text-align: center;
+        margin: 0;
+        border: solid 1px limegreen;
+    }
+
+    #main{ 
+        height: 250px;
+    }
+
+    #main-content {
+        background-color: lightgray;
+        float: right;
+        width: 80%;
+        height: 100%;
+        border: solid 1px lightgray;
+    }
+
+    #sidebar{
+        background-color: grey;
+        width: 20%;
+        height: 100%;
+        color: white;
+        border: solid 1px grey;
+    }
+
+    #footer{
+        background-color: rosybrown;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        border: solid 1px rosybrown;
+    }
+    .copy{
+        font-style: italic;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <div id="header">
+        <h1>Minha primeira pagina com div</h1>
+    </div>
+    <div id="main">
+        <div id="main-content">
+            <p>Nullam felis arcu, accumsan accumsan mi ac, tristique semper ligula. Integer vitae ex molestie leo tristique
+                cursus sit amet quis tellus. Cras est sem, convallis non aliquam et, blandit vitae nulla. Nullam id placerat
+                libero. Maecenas sit amet aliquam lacus. Aliquam cursus feugiat mi, id dignissim tellus. Cras tempor luctus
+                neque, nec tristique enim tincidunt id. Quisque a aliquam dolor, ac ultricies risus. Aliquam a lobortis
+                nibh. Fusce malesuada, felis eu tempor pulvinar, tellus risus posuere lectus, id vestibulum orci mi quis
+                odio.</p>
+            <p>Nullam felis arcu, accumsan accumsan mi ac, tristique semper ligula. Integer vitae ex molestie leo tristique
+                cursus sit amet quis tellus. Cras est sem, convallis non aliquam et, blandit vitae nulla. Nullam id placerat
+                libero. Maecenas sit amet aliquam lacus. Aliquam cursus feugiat mi, id dignissim tellus. Cras tempor luctus
+                neque, nec tristique enim tincidunt id. Quisque a aliquam dolor, ac ultricies risus. Aliquam a lobortis
+                nibh. Fusce malesuada, felis eu tempor pulvinar, tellus risus posuere lectus, id vestibulum orci mi quis
+                odio.</p>
+        </div>
+        <div id="sidebar">
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <p><span class="copy">Copyright &copy;</span> Todos os direitos reservados</p>
+    </div>
+    <button onclick="TrocarPag('../index.html')" class="botao-volta">Página Inicial</button>
+</body>
+</html>
