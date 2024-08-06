@@ -1,0 +1,17 @@
+.fontSerif{
+    font-family: 'Times New Roman','Times','Georgia','Serif';
+    font-size: 80px;
+    font-style: italic;
+}
+
+.fontSans-Serif{
+    font-family: 'Verdana','Optima','Noto Sans','Sans-Serif';
+    font-size: 40px;
+    font-style: normal;
+}
+
+.fonteMonospace{
+    font-family: 'Courier New','FreeMono','Courier','monospace';
+    font-size: 20px;
+    font-style: oblique;
+}
