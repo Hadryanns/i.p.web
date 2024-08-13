@@ -1,0 +1,22 @@
+.container{
+    border: solid 1px black;
+    background-color: mediumturquoise;
+    padding: 15px;
+    width: 600px;
+    margin: 10px;
+
+}
+
+.noticia{
+    color: black;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.titulo{
+    color: red;
+    margin: 8px;
+}   
