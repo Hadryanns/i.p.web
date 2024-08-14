@@ -1,22 +1,41 @@
-.container{
-    border: solid 1px black;
-    background-color: mediumturquoise;
-    padding: 15px;
-    width: 600px;
-    margin: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+.header{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
-
-.noticia{
-    color: black;
-    font-size: 16px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: justify;
-    line-height: 20px;
-}
-
 .titulo{
     color: red;
-    margin: 8px;
-}   
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.main{
+    background-color: #d6d6d6;
+    height: 50em;
+}
+
+.imagens{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    display: flex;
+}
+
+.conteudo{
+    background-color: white;
+    display: flex;
+    height: auto;
+    float: left;
+    margin-top: 15px;
+    padding: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
