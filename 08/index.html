@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="../script.js"></script>
     <title>Atividade 8</title>
 </head>
@@ -14,43 +14,48 @@
     <header class="header">
         <span class="titulo">Galeria de Fotos</span>
     </header>
-    
+
     <main class="main">
-        <article class="conteudo">
-            <figure class="imagens">
-                <img src="imagens/imagem1.png" alt="">
-            </figure><br>
-            aaaa
-        </article>
-        <article class="conteudo">
-            <figure class="imagens">
-                <img src="imagens/imagem2.png" alt="">
-            </figure><br>
-            <p>Little Nightmares</p>
-        </article>
-        <article class="conteudo">
-            <figure class="imagens">
-                <img src="imagens/imagem3.png" alt="">
-            </figure><br>
-            <p>Buda</p>
-        </article>
-        <article class="conteudo">
-            <figure class="imagens">
-                <img src="imagens/imagem4.png" alt="">
-            </figure><br>
-            <p>Five Nights at Freddy's</p>
-        </article>
-        <article class="conteudo">
-            <figure class="imagens">
-                <img src="imagens/imagem5.png" alt="">
-            </figure><br>
-            <p>Um dia de Sol</p>
-        </article>
-        <!-- <article class="conteudo">
-            <figure class="imagens">
-                <img src="imagens/imagem6.jpg" alt="">
-            </figure>
-        </article> -->
+        <div class="row">
+            <article class="conteudo">
+                <figure class="imagens">
+                    <img src="imagens/imagem1.png" alt="">
+                </figure><br>
+                <span class="text-imagens">A cobra vai fumar</span><br>
+            </article>
+            <article class="conteudo">
+                <figure class="imagens">
+                    <img src="imagens/imagem2.png" alt="">
+                </figure><br>
+                <span class="text-imagens">Little Nightmares</span><br>
+            </article>
+            <article class="conteudo">
+                <figure class="imagens">
+                    <img src="imagens/imagem3.png" alt="">
+                </figure><br>
+                <span class="text-imagens">Buda</span><br>
+            </article>
+        </div>
+        <div class="row">
+            <article class="conteudo">
+                <figure class="imagens">
+                    <img src="imagens/imagem4.png" alt="">
+                </figure><br>
+                <span class="text-imagens">Five Nights at Freddy's</span><br>
+            </article>
+            <article class="conteudo">
+                <figure class="imagens">
+                    <img src="imagens/imagem5.png" alt="">
+                </figure><br>
+                <span class="text-imagens">Um dia de Sol</span><br>
+            </article>
+            <article class="conteudo">
+                <figure class="imagens">
+                    <img src="imagens/imagem6.jpg" alt="">
+                </figure><br>
+                <span class="text-imagens">Pandemia</span><br>
+            </article>
+        </div>
     </main>
     <footer>
         <button onclick="TrocarPag('../index.html')" class="botao-volta">Página Inicial</button>
