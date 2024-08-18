@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Jersey+10&display=swap');
 
 .header{
     background-color: sandybrown;
@@ -10,8 +10,8 @@
 }
 .titulo{
     color: cornsilk;
-    font-size: 50px;
-    font-family: "Comic Sans MS", cursive;
+    font-size: 80px;
+    font-family: "Grey Qo", cursive;
 }
 .main{
     display: flex;
@@ -50,5 +50,6 @@
     justify-content: start;
 }
 .text-imagens{
-    font-family: cursive;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 2em;
 }
