@@ -27,7 +27,8 @@ const atividades = [
     "05/Teste_css.html",
     "06/index.html",
     "07/index.html",
-    "08/index.html"
+    "08/index.html",
+    "09/index.html"
 ]
 const projetos = [
     "Projeto 1/jmviagens.html"
