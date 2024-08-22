@@ -1,13 +1,15 @@
-body{margin: 0;
-    height: 1200px;
-    display: flex;
+html, body{
+    height: 100%;
+    margin: 0;
 }
 header{
+    position: fixed;
+    top:0;
+    left: 0;
     width: 100%;
     height: 10%;
     display: flex;
-    position: fixed;
-    z-index: 1000;
+    z-index: 1;
     align-items: center;
     justify-content: center;
     background-color: orchid;
@@ -20,12 +22,11 @@ header{
 }
 main{
     display: flex;
-    position: absolute;
+    position: relative;
     top: 10%;
     width: 100%;
-    height: 1000px;
+    height: 150em;
     background-color: bisque;
-    /* float: left; */
     .lateral{
         display: flex;
         align-items: center;
@@ -50,6 +51,7 @@ footer{
     position: relative;
     height: 10%;
     width: 100%;
-    top: 90%;
+    bottom: 0;
     background-color: cornflowerblue;
+    z-index: 1000;
 }
